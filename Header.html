@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8" />
+        <meta charset="UTF-8" />
+        <link href="css/all.css" rel="stylesheet">
 		<title>Reservia</title>
 	</head>
 	<body>
@@ -12,7 +13,24 @@
                 <a href="#">S'inscrire</a>
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             <p>En plein centre ville ou pleine nature</p>
+
+            <form method="POST" action="#">
+                <p><i class="fas fa-map-marker-alt"></i><input type="text" name="rechercher" placeholder="Marseille,France" autofocus/></p>
+                <input type="submit" value="Rechercher">
+            </form>
         </header>
+
+        </section>
+        <P>Filtres</P>
+        <ul>
+            <li><a href="#"><i class="fas fa-money-bill-wave-alt"></i>Economique</a></li>
+            <li><a href="#"><i class="fas fa-child"></i>Familial</a></li>
+            <li><a href="#"><i class="fas fa-heart"></i>Romantique</a></li>
+            <li><a href="#"><i class="fas fa-dog"></i>Animaux Autorisés</a></li>
+        </ul>
+        </section>
+
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
 
         <section>
             <h2 id="hébergements">Hébergement à Marseille</h2>
@@ -73,8 +91,6 @@
             </figure>
 
 
-
-
         </section>
 
         <section class="activites">
@@ -106,7 +122,7 @@
                 <figcaption>Parc Longchamp</figcaption></a>
             </figure>
 
-        </section>
+        
 
 	</body>
 </html>
