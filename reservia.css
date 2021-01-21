@@ -1,10 +1,7 @@
 body
 {
     font-family:  "Raleway", sans-serif;
-    background-image: url("logo/Reservia@3x.png");
-    background-repeat: no-repeat; /* Le fond ne sera pas répété */
-    background-position: top left; /* Le fond sera placé en haut à droite */
-}
+}    
 h2
 {
     font-weight: bold;
@@ -22,20 +19,66 @@ p
 #hai
 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: start;
 }
 .h
 {
-    width: 10%;
+    width: 80%;
+    text-align: right;
 }
 .a
 {
     width: 7%;
+    text-align: right;
 }
 .i
 {
-    width: 5%;
+    width: 7%;
+    text-align: right;
 }
+.logo
+{
+    text-align: left;
+}
+#hai a
+{
+    color: #0065FC;
+    text-decoration: none;
+}
+.villenature
+{
+    font-weight: normal;
+    font-size: small;
+}
+.loc
+{
+    background-color: #F2F2F2;
+    height: 200px;
+    padding: 7px;
+    border-radius: 10px 0px 0px 10px;
+    margin: 0px;
+}
+header i
+{
+    font-size: medium;
+    width: 3%;
+    text-align: center;
+}
+input
+{
+    padding: 7px;
+    border: 0px;
+    font-weight: bold;
+    width: 8%;
+}
+.recherche
+{
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
 
 
 

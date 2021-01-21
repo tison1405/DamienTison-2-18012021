@@ -8,19 +8,32 @@
 	</head>
 	<body>
         <header>
-                <div id="hai">
-                    <a href="#hébergements" class="h">Hébergements</a>
-                    <a href="#activités" class="a">Activités</a>
-                    <a href="#" class="i">S'inscrire</a>
-                </div>
+            <div id="hai">
+                <p class="logo">
+                     <img src="logo/Reservia@3x.png" alt="logo réservia">
+                </p>
 
-            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-            <p>En plein centre ville ou pleine nature</p>
+                <span class="h"><a href="#hébergements" >Hébergements</a></span>
+                <span class="a"> <a href="#activités" >Activités</a></span>
+                <span class="i"><a href="#" >S'inscrire</a></span>
+            </div>
+                
+            <h2>
+                Trouvez votre hébergement pour des vacances de rêve<br/>
+                <span class="villenature">En plein centre ville ou pleine nature</span>
+            </h2>
+             
+                
 
-            <form method="POST" action="#">
-                <p><i class="fas fa-map-marker-alt"></i><input type="text" name="rechercher" placeholder="Marseille,France" autofocus/></p>
-                <input type="submit" value="Rechercher">
-            </form>
+            <div id="localisation">
+                <form method="POST" action="#">
+                    <p>
+                        <span class="loc"><i class="fas fa-map-marker-alt"></i></span>
+                        <input type="text" name="rechercher" placeholder="Marseille,France" autofocus/>
+                        <input class="recherche" type="submit" value="Rechercher">
+                    </p>
+                </form>
+            </div>
         </header>
 
         </section>
