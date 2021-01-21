@@ -77,6 +77,42 @@ input
     color: white;
     border-radius: 0px 10px 10px 0px;
 }
+section i
+{
+    color: #0065FC;
+    height: 30px;
+    width: 30px;
+    background-color: #DEEBFF;
+    text-align: center;
+    padding: 15px 10px 3px 10px;
+    border-radius: 50%;
+    font-size: medium;  
+}
+p a
+{
+    text-decoration: none;
+}
+.filter
+{
+    border: 2px solid #F2F2F2;
+    padding: 15px 45px 15px 0px;
+    border-radius: 30px 30px;
+}
+.textes
+{
+    padding: 15px 10px 15px 20px;
+    font-size: medium;
+    color: black;
+    font-weight: 700;
+    font-style: normal;
+}
+p a:hover
+{
+    padding: 15px 0px 15px 0px;
+    border-radius: 30px 30px;
+    background-color:  #DEEBFF;
+}
+
 
 
 
