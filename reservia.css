@@ -104,6 +104,26 @@ p a:hover
     border-radius: 30px 30px;
     background-color:  #DEEBFF;
 }
+.hotelsoleil
+{
+    border: 1px solid black;
+    width: 15%;
+}
+aside img
+{
+    width: 100%;
+}
+.aucoeurdeleau
+{
+    border: 1px solid black;
+    width: 15%;
+}
+.toutbleu
+{
+    border: 1px solid black;
+    width: 15%;
+}
+}
 @media (max-width:768px)
 {
     #ligne1
