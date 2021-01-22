@@ -16,25 +16,17 @@ p
     src: url(Font/Raleway-Italic-VariableFont_wght.ttf);
     src: url(Font/Raleway-VariableFont_wght.ttf);
 }
+#ligne1
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
 #hai
 {
     display: flex;
-    justify-content: start;
-}
-.h
-{
-    width: 80%;
-    text-align: right;
-}
-.a
-{
-    width: 7%;
-    text-align: right;
-}
-.i
-{
-    width: 7%;
-    text-align: right;
+    justify-content: space-between;
+    width: 35%;
 }
 .logo
 {
@@ -95,7 +87,7 @@ p a
 .filter
 {
     border: 2px solid #F2F2F2;
-    padding: 15px 45px 15px 0px;
+    padding: 15px 15px 15px 0px;
     border-radius: 30px 30px;
 }
 .textes
@@ -112,7 +104,13 @@ p a:hover
     border-radius: 30px 30px;
     background-color:  #DEEBFF;
 }
-
+@media (max-width:768px)
+{
+    #ligne1
+    {
+        flex-direction: column;
+    }
+}
 
 
 
