@@ -196,7 +196,6 @@ aside figure a figcaption
 #hebergements
 {
     padding-top: 30px;
-    padding-bottom: 15px;
     padding-left: 20px;
 }
 #hotel1
@@ -204,14 +203,14 @@ aside figure a figcaption
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 200px;
+    height: 250px;
 }
 #hotel2
 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 200px;
+    height: 250px;
 }
 #afficherplus
 {
@@ -222,8 +221,8 @@ aside figure a figcaption
 }
 .heb figure
 {
-    width: 220px;
-    height: 180px;
+    width: 250px;
+    height: 200px;
     border-radius: 10px 10px;
     background-color: white;
 }
@@ -236,7 +235,7 @@ aside figure a figcaption
 .heb img
 {
     width: 100%;
-    height: 113px;
+    height: 140px;
     border-radius: 10px 10px 0px 0px;
 }
 .heb i
