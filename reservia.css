@@ -69,7 +69,7 @@ input
     color: white;
     border-radius: 0px 10px 10px 0px;
 }
-section i
+.filtres i
 {
     color: #0065FC;
     height: 30px;
@@ -169,9 +169,146 @@ aside figure a figcaption
     padding: 10px;
     width: 40%;
 }
+.heb
+{
+    width: 70%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 0px 10px 10px 0px;
+}
+.heb h2
+{
+    font-size: 18px;
+}
+.heb a
+{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+.heb .fas
+{
+    color: #0065FC;
+}
+#hebergements
+{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+#hotel1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+}
+#hotel2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+}
+#afficherplus
+{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    font-weight: bold;    
+}
+.heb figure
+{
+    width: 220px;
+    height: 180px;
+    border-radius: 10px 10px;
+    background-color: white;
+}
+.heb a
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.heb img
+{
+    width: 100%;
+    height: 113px;
+    border-radius: 10px 10px 0px 0px;
+}
+.heb i
+{
+    font-size: x-small;
+}
+.heb figcaption
+{
+    font-size: small;
+    padding: 5px;
+}
+#section1
+{
+    display: flex;
+    justify-content: space-between;
+}
+#marseille
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.vieuxport
+{
+    height: 430px;
+    width: 310px;
+}
+.vieuxport img
+{
+    height: 400px;
+    width: 310px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#marseille div img
+{
+    width: 310px;
+    height: 180px;
+    border-radius: 10px 10px 0px 0px;
+}
+#marseille figure
+{
+    border-radius: 10px 10px;
+    box-shadow: 6px 6px 0px #F2F2F2;
+}
+.calanques
+{
+    width: 310px;
+    height: 430px;
+}
+.calanques img
+{
+    height: 400px;
+    width: 310px;
+    border-radius: 10px 10px 0px 0px;
+}
+#marseille a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
 @media (max-width:768px)
 {
     #ligne1
+    {
+        flex-direction: column;
+    }
+    #section1
     {
         flex-direction: column;
     }
