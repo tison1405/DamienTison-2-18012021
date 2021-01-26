@@ -153,9 +153,9 @@ aside
     height: 600px;
     border-radius: 10px 0px 0px 10px;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
     background-color: #F2F2F2;
+    margin-top: 15px;
 
 }
 aside img
@@ -171,6 +171,7 @@ aside figure
     padding: 5px;
     border-radius: 10px 10px;
     background-color: white;
+    margin: 50px 0px 50px 20px;
 }
 aside figure i
 {
@@ -200,13 +201,20 @@ aside figure a figcaption
 .heb
 {
     width: 70%;
-    min-width: 750px;
+    min-width: 900px;
     height: 600px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 0px 10px 10px 0px;
+}
+#hotel6
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 500px;
 }
 .heb h2
 {
@@ -230,20 +238,26 @@ aside figure a figcaption
 #hotel1
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    height: 250px;
+    height: 500px;
 }
 #hotel2
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    height: 250px;
+    height: 500px;
+}
+#hotel3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
 }
 #afficherplus
 {
-    padding-top: 30px;
     padding-bottom: 15px;
     padding-left: 20px;
     font-weight: bold;    
@@ -252,7 +266,7 @@ aside figure a figcaption
 {
     width: 250px;
     height: 200px;
-    min-width: 250px;
+    min-width: 200px;
     border-radius: 10px 10px;
     background-color: white;
 }
@@ -336,9 +350,14 @@ aside figure a figcaption
 
 @media (max-width:768px)
 {
+    header
+    {
+        text-align: center;
+    }
     #ligne1
     {
         flex-direction: column;
+        justify-content: space-around;
     }
     
     .filtres
@@ -346,12 +365,85 @@ aside figure a figcaption
         flex-direction: column;
     }
 }
+@media (max-width:900px)
+{
+    #hotel3
+    {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 700px;
+    }
+    #hotel1
+    {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 700px;
+    }
+    #hotel2
+    {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 700px;
+    }
+    #hotel6
+    {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 500px;
+    }
+    .heb
+    {
+        height: 800px;
+    }
+    #hebergements
+    {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    #afficherplus
+    {
+        padding-top: 40px;
+    }
+
+}
 
 @media (max-width:1600px)
 {
     #section1
     {
         flex-direction: column;
+    }
+    #hotelpop
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 700px;
+        margin-left: 10px;
+    }
+    aside
+    {
+        width: 750px;
+        height: 400px;
+    }
+    aside figure a
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    aside img
+    {
+        width: 100%;
+        border-radius: 10px;
+    }
+    aside figure
+    {
+        width: 100%;
+        height: 200px;
+    }
+    aside figure a figcaption
+    {
+        width: 100%;
     }
 }
 
