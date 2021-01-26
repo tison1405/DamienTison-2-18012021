@@ -131,6 +131,7 @@ input
 {
     background-color:  #DEEBFF;
 }
+
 #titrepopulaire
 {
     display: flex;
@@ -148,7 +149,7 @@ aside h2
 }
 aside
 {
-    width: 25%;
+    width: 400px;
     height: 600px;
     border-radius: 10px 0px 0px 10px;
     display: flex;
@@ -199,6 +200,7 @@ aside figure a figcaption
 .heb
 {
     width: 70%;
+    min-width: 750px;
     height: 600px;
     display: flex;
     justify-content: space-around;
@@ -250,6 +252,7 @@ aside figure a figcaption
 {
     width: 250px;
     height: 200px;
+    min-width: 250px;
     border-radius: 10px 10px;
     background-color: white;
 }
@@ -273,11 +276,14 @@ aside figure a figcaption
 {
     font-size: small;
     padding: 5px;
+
 }
 #section1
 {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    min-width: 750px;
 }
 #marseille
 {
@@ -334,18 +340,20 @@ aside figure a figcaption
     {
         flex-direction: column;
     }
-    #section1
-    {
-        flex-direction: column;
-    }
+    
     .filtres
     {
         flex-direction: column;
     }
 }
 
-
-
+@media (max-width:1600px)
+{
+    #section1
+    {
+        flex-direction: column;
+    }
+}
 
 
 
