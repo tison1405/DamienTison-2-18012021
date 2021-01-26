@@ -77,13 +77,13 @@ input
 {
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    width: 800px;
 }
 .filtres i
 {
     color: #0065FC;
-    height: 30px;
     width: 30px;
+    height: 30px;
     background-color: #DEEBFF;
     text-align: center;
     padding: 11px 5px 0px 5px;
@@ -97,47 +97,38 @@ input
     color: black;
     font-weight: 700;
     font-style: normal;
+    border: 2px solid #F2F2F2;
+    border-radius: 30px 30px;
+    margin-bottom: 5px;
+
 }
 .textefiltres
 {
-    padding: ;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
 }
 .economique
 {
-    border: 2px solid #F2F2F2;
     width: 150px;
-    border-radius: 30px 30px;
-    height: 30px;
 }
 .familial
 {
-    border: 2px solid #F2F2F2;
     width: 120px;
-    border-radius: 30px 30px;
-    height: 30px;
 }
 .romantique
 {
-    border: 2px solid #F2F2F2;
     width: 150px;
-    border-radius: 30px 30px;
-    height: 30px;
 }
 .animaux
 {
-    border: 2px solid #F2F2F2;
-    width: 200x;
-    border-radius: 30px 30px;
-    height: 30px;
+    width: 200px;
 }
-.textes
+.textes 
 {
-    
+    padding: 0px 0px 0px 5px;
 }
-p a:hover
+.filtres a:hover
 {
-    padding: 15px 0px 15px 0px;
-    border-radius: 30px 30px;
     background-color:  #DEEBFF;
 }
 #titrepopulaire
@@ -344,6 +335,10 @@ aside figure a figcaption
         flex-direction: column;
     }
     #section1
+    {
+        flex-direction: column;
+    }
+    .filtres
     {
         flex-direction: column;
     }
