@@ -42,32 +42,37 @@ p
     font-weight: normal;
     font-size: small;
 }
+form
+{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+}
 .loc
 {
     background-color: #F2F2F2;
-    height: 200px;
-    padding: 7px;
+    padding: 8px;
+    width: 15px;
     border-radius: 10px 0px 0px 10px;
-    margin: 0px;
-}
-header i
-{
-    font-size: medium;
-    width: 3%;
     text-align: center;
-}
+    font-size: medium;
+}   
 input
 {
     padding: 7px;
     border: 0px;
     font-weight: bold;
-    width: 8%;
+    width: 150px;
+    height: 20px;
 }
 .recherche
 {
     background-color: #0065FC;
     color: white;
     border-radius: 0px 10px 10px 0px;
+    width: 110px;
+    height: 35px;
 }
 .filtres i
 {
