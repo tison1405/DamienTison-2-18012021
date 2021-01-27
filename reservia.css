@@ -21,16 +21,13 @@ p
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    min-width: 1200px;
 }
 #hai
 {
     display: flex;
     justify-content: space-between;
     width: 35%;
-}
-.logo
-{
-    text-align: left;
 }
 #hai a
 {
@@ -350,19 +347,29 @@ aside figure a figcaption
 
 @media (max-width:768px)
 {
-    header
+    header h2
     {
         text-align: center;
+        margin-bottom: 30px;
     }
     #ligne1
     {
         flex-direction: column;
-        justify-content: space-around;
+        align-items: center;
+        min-width: 300px;
     }
-    
+    #hai
+    {
+        width: 300px;
+    }
     .filtres
     {
         flex-direction: column;
+    }
+    form
+    {
+        justify-content: center;
+        min-width: 300px;
     }
 }
 @media (max-width:900px)
