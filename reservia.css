@@ -303,6 +303,16 @@ aside figure a figcaption
     flex-direction: row;
     justify-content: space-between;
 }
+#marseille1
+{
+    display: flex;
+    flex-direction: row;
+}
+#marseille2
+{
+    display: flex;
+    flex-direction: row;
+}
 .vieuxport
 {
     height: 430px;
@@ -315,7 +325,13 @@ aside figure a figcaption
     border-radius: 10px 10px 0px 0px;
 }
 
-#marseille div img
+#marseille1 div img
+{
+    width: 310px;
+    height: 180px;
+    border-radius: 10px 10px 0px 0px;
+}
+#marseille2 div img
 {
     width: 310px;
     height: 180px;
@@ -461,6 +477,22 @@ aside figure a figcaption
     .heb
     {
         width: 100%;
+    }
+    #marseille
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    #marseille1
+    {
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: space-around;
+    }
+    #marseille2
+    {
+        width: 100%;
+        justify-content: space-around;
     }
 }
 
