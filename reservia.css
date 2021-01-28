@@ -200,7 +200,6 @@ aside figure a figcaption
 .heb
 {
     width: 70%;
-    min-width: 900px;
     height: 600px;
     display: flex;
     justify-content: space-around;
@@ -448,6 +447,7 @@ aside figure a figcaption
     {
         display: flex;
         flex-direction: column;
+        height: 200px;
     }
     aside img
     {
