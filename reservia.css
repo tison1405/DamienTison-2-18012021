@@ -530,6 +530,10 @@ footer div
         width: 100%;
         justify-content: space-around;
     }
+    .filtres
+    {
+        width: 100%;
+    }
 }
 
 
