@@ -172,6 +172,7 @@ aside img
     width: 40%;
     height: 110px;
     border-radius: 10px 0px 0px 10px;
+    object-fit: cover;
 }
 aside figure i
 {
@@ -389,7 +390,7 @@ footer div
 
 
 
-@media (max-width:1000px)
+@media (max-width:768px)
 {
     header h2
     {
@@ -428,7 +429,7 @@ footer div
     }
 
 }
-@media (max-width:1000px)
+@media (max-width:768px)
 {
     #hotel3
     {
@@ -474,7 +475,7 @@ footer div
 
 }
 
-@media (max-width:1600px)
+@media (max-width:1024px)
 {
     #section1
     {
