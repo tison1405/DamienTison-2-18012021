@@ -22,17 +22,65 @@ p
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
+    height: 60px;
+    padding-top: 30px;
 }
-#hai
+#logo
+{
+    width: 70px;
+    height: 30px;
+}
+#logo img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#hai 
 {
     display: flex;
     justify-content: space-around;
-    width: 35%;
+    flex-direction: row;
+    width: 30%;
 }
-#hai a
+.h a
+{
+    color: gray;
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+}
+.a a
+{
+    color: gray;
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+}
+.i a
 {
     color: #0065FC;
     text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+}
+
+.a a:hover
+{
+    color: #0065FC;
+    border-top: 1px solid #0065FC;
+    padding-top: 30px;
+}
+.h a:hover
+{
+    color: #0065FC;
+    border-top: 1px solid #0065FC;
+    padding-top: 30px;
+}
+header h2
+{
+    font-size: larger;
+    font-weight: 900;
 }
 .villenature
 {
@@ -44,36 +92,38 @@ form
     margin-bottom: 10px;
     display: flex;
     justify-content: start;
+    width: 450px;
+    height: 40px;
 }
 .loc
 {
     background-color: #F2F2F2;
     padding: 8px;
-    width: 15px;
+    width: 10%;
     border-radius: 10px 0px 0px 10px;
     text-align: center;
     font-size: medium;
 }   
 input
 {
-    padding: 7px;
+    padding-top: 0px;
     border: 0px;
     font-weight: bold;
-    width: 150px;
-    height: 20px;
+    width: 50%;
+    height: 40px;
 }
 .recherche
 {
     background-color: #0065FC;
     color: white;
     border-radius: 0px 10px 10px 0px;
-    width: 110px;
-    height: 35px;
+    width: 40%;
+    height: 40px;
 }
 .filtres
 {
     display: flex;
-    width: 1300px;
+    width: 1000px;
 }
 .filtres i
 {
@@ -95,7 +145,8 @@ input
     font-style: normal;
     border: 2px solid #F2F2F2;
     border-radius: 30px 30px;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
+    margin-top: 8px;
 }
 .filtres div
 {
@@ -285,6 +336,7 @@ aside figcaption
     width: 100%;
     height: 140px;
     border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
 }
 .heb i
 {
@@ -294,7 +346,6 @@ aside figcaption
 {
     font-size: small;
     padding: 5px;
-
 }
 #section1
 {
@@ -303,61 +354,21 @@ aside figcaption
     width: 100%;
     min-width: 750px;
 }
+.activites img
+{
+    object-fit: cover;
+}
+.activites
+{
+    width: 100%;
+}
+
 #marseille
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-}
-#marseille1
-{
-    display: flex;
-    flex-direction: row;
-}
-#marseille2
-{
-    display: flex;
-    flex-direction: row;
-}
-.vieuxport
-{
-    height: 430px;
-    width: 310px;
-}
-.vieuxport img
-{
-    height: 400px;
-    width: 310px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-#marseille1 div img
-{
-    width: 310px;
-    height: 180px;
-    border-radius: 10px 10px 0px 0px;
-}
-#marseille2 div img
-{
-    width: 310px;
-    height: 180px;
-    border-radius: 10px 10px 0px 0px;
-}
-#marseille figure
-{
-    border-radius: 10px 10px;
-    box-shadow: 6px 6px 0px #F2F2F2;
-}
-.calanques figure
-{
-    width: 310px;
-    height: 430px;
-}
-.calanques img
-{
-    height: 400px;
-    width: 310px;
-    border-radius: 10px 10px 0px 0px;
+    justify-content: space-around;
+    height: 450px;
 }
 #marseille a
 {
@@ -365,6 +376,150 @@ aside figcaption
     color: black;
     font-weight: bold;
 }
+#marseille1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+    width: 50%;
+}
+#marseille2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+    width: 50%;
+}
+#nl
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 430px;
+}
+#fi
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 420px;
+}
+#marseille figure
+{
+    box-shadow: 6px 6px 0px #F2F2F2;
+}
+.vieuxport
+{
+    height: 100%;
+    border-radius: 10px 10px;
+}
+.fortdepomegues
+{
+    height: 225px;
+    border-radius: 10px 10px;
+}
+
+.ilesdufrioul
+{
+    height: 135px;
+    border-radius: 10px 10px;
+}
+.calanques
+{
+    height: 100%;
+    border-radius: 10px 10px;
+}
+.notredame
+{
+    height: 180px;
+    border-radius: 10px 10px;
+}
+.longchamp
+{
+    height: 180px;
+    border-radius: 10px 10px;
+}
+.vieuxport a img
+{
+    width: 100%;
+    height: 360px;
+    border-radius: 10px 10px 0px 0px;
+}
+.vieuxport a div
+{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.fortdepomegues a img
+{
+    width: 100%;
+    height: 185px;
+    border-radius: 10px 10px 0px 0px;
+}
+.fortdepomegues a div
+{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.ilesdufrioul a img
+{
+    width: 100%;
+    height: 95px;
+    border-radius: 10px 10px 0px 0px;
+}
+.ilesdufrioul a div
+{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.calanques a img
+{
+    height: 360px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.calanques a div
+{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.notredame a img
+{
+    width: 100%;
+    height: 140px;
+    border-radius: 10px 10px 0px 0px;
+}
+.notredame a div
+{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.longchamp a img
+{
+    width: 100%;
+    height: 140px;
+    border-radius: 10px 10px 0px 0px;
+}
+.longchamp a div
+{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
 footer
 {
     display: flex;
@@ -508,6 +663,7 @@ footer div
     {
         width: 100%;
         border-radius: 10px;
+
     }
     aside figcaption
     {
