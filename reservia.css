@@ -191,7 +191,7 @@ input
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 20px;
+    height: 40px;
     width: 80%;
     align-self: center;
     font-size: larger;
@@ -216,7 +216,7 @@ aside
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 500px;
+    height: 540px;
 }
 aside img
 {
@@ -240,23 +240,23 @@ aside a
     color: black;
     font-size: small;
 }
-aside figure 
+aside figure a
 {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 90%;
     height: 110px;
     padding: 5px;
     border-radius: 10px 10px;
     background-color: white;
 }
-aside figcaption
+.asidehotel
 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 10px;
-    width: 40%;
+    width: 60%;
 }
 .heb
 {
@@ -342,10 +342,10 @@ aside figcaption
 {
     font-size: x-small;
 }
-.heb figcaption
+.textehotel
 {
     font-size: small;
-    padding: 5px;
+    padding: 8px;
 }
 #section1
 {
