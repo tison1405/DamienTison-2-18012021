@@ -15,6 +15,24 @@ p
     font-family: "Raleway";
     src: url(Font/Raleway-Italic-VariableFont_wght.ttf);
     src: url(Font/Raleway-VariableFont_wght.ttf);
+    src: url(Font/Raleway-Black.ttf);
+    src: url(Font/Raleway-BlackItalic.ttf);
+    src: url(Font/Raleway-Bold.ttf);
+    src: url(Font/Raleway-BoldItalic.ttf);
+    src: url(Font/Raleway-ExtraBold.ttf);
+    src: url(Font/Raleway-ExtraBoldItalic.ttf);
+    src: url(Font/Raleway-ExtraLight.ttf);
+    src: url(Font/Raleway-ExtraLightItalic.ttf);
+    src: url(Font/Raleway-Italic.ttf);
+    src: url(Font/Raleway-Light.ttf);
+    src: url(Font/Raleway-LightItalic.ttf);
+    src: url(Font/Raleway-Medium.ttf);
+    src: url(Font/Raleway-MediumItalic.ttf);
+    src: url(Font/Raleway-Regular.ttf);
+    src: url(Font/Raleway-SemiBold.ttf);
+    src: url(Font/Raleway-SemiBoldItalic.ttf);
+    src: url(Font/Raleway-Thin.ttf);
+    src: url(Font/Raleway-ThinItalic.ttf);
 }
 #ligne1
 {
