@@ -27,15 +27,25 @@
                     <span class="loc">
                             <i class="fas fa-map-marker-alt"></i>
                     </span>
-                    <input type="text" name="rechercher" placeholder="Marseille,France" autofocus/>
-                    <input class="recherche" type="submit" value="Rechercher">
+                    <input type="text" id="mf" name="rechercher" placeholder="Marseille,France" autofocus/>
+                    <input class="recherche" type="submit" value="Rechercher"/>
+                </form>
+            </div>
+
+            <div id="rechercher">
+                <form method="POST" action="#">
+                    <span class="loc">
+                            <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <input type="text" id="mf" name="rechercher" placeholder="Marseille,France" autofocus/>
+                    <i class="fas fa-search" id="loupe"></i>
+                    
                 </form>
             </div>
         </header>
 
         <section class="filtres">
-            <h2 class="textefiltres">Filtres</h2>
-            <div>
+                <h2 class="textefiltres">Filtres</h2>
                 <a href="#" class="economique">
                     <i class="fas fa-money-bill-wave-alt"></i>
                     <span class="textes">Economique</span>
@@ -44,8 +54,6 @@
                     <i class="fas fa-child"></i>
                     <span class="textes">Familial</span>
                 </a>
-            </div>
-            <div>
                 <a href="#" class="romantique">
                     <i class="fas fa-heart"></i>
                     <span class="textes">Romantique</span>
@@ -54,10 +62,10 @@
                     <i class="fas fa-dog"></i>
                     <span class="textes">Animaux Autorisés</span>
                 </a>
-            </div>
+            
         </section>
 
-        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        <p class="plus"><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
 
         <div id="section1">
                 <section class="heb"> 
@@ -68,8 +76,10 @@
                             <a href="#">
                                 <img src="hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo auberge la cannebière"/>
                                 <div class="textehotel">
-                                     <strong>Auberge de la Cannebière</strong><br/>
-                                     Nuit à partir de 25€
+                                     <strong>Auberge de la Cannebière</strong>
+                                     <div>
+                                         Nuit à partir de 25€
+                                    </div>
                                     <div>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -80,13 +90,53 @@
                                 </div>
                             </a>
                          </figure>
-                       
-                         <figure class="hoteldelamer">
+                         <figure class="hotelduport">
+                            <a href="#">
+                                 <img src="hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo hotel du port"/>
+                                 <div class="textehotel">
+                                    <strong>Hôtel du port</strong>
+                                    <div>
+                                    Nuit à partir de 52€
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </figure>
+                        <figure class="hotellesmouettes">
+                            <a href="#">
+                                <img src="hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo hotel les mouettes"/>
+                                <div class="textehotel">
+                                    <strong> Hôtel Les mouettes</strong>
+                                    <div>
+                                        Nuit à partir de 76€
+                                    </div>
+                                    <div>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </figure>   
+                    </div>
+
+                    <div id="hotel2">
+                        <figure class="hoteldelamer">
                             <a href="#">
                                 <img src="hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo hotel de la mer"/>
                                 <div class="textehotel">
-                                    <strong>Hôtel de la mer</strong><br/>
-                                    Nuit à partir de 46€
+                                    <strong>Hôtel de la mer</strong>
+                                    <div>
+                                         Nuit à partir de 46€
+                                    </div>
                                     <div>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -97,32 +147,14 @@
                                 </div>
                             </a>
                         </figure>   
-                    </div>
-
-                    <div id="hotel2">
-                        <figure class="hotelduport">
-                            <a href="#">
-                                 <img src="hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo hotel du port"/>
-                                 <div class="textehotel">
-                                    <strong>Hôtel du port</strong><br/>
-                                    Nuit à partir de 52€
-                                    <div>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </figure>
-
                         <figure class="aubergelepanier">
                             <a href="#">
                                  <img src="hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo auberge le panier"/>
                                 <div class="textehotel">
-                                     <strong>Auberge le Panier</strong><br/>
-                                    Nuit à partir de 23€
+                                    <strong>Auberge le Panier</strong>
+                                    <div>
+                                        Nuit à partir de 23€
+                                    </div>
                                     <div>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -133,42 +165,24 @@
                                 </div>
                             </a>
                         </figure>
-                    </div>
-
-                    <div id=hotel3>
-                            <figure class="hotellesmouettes">
-                                <a href="#">
-                                    <img src="hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo hotel les mouettes"/>
-                                    <div class="textehotel">
-                                        <strong> Hôtel Les mouettes</strong><br/>
-                                        Nuit à partir de 76€
-                                        <div>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </figure>
-                        
-                            <figure class="hotelchezamina">
-                                <a href="#">
-                                    <img src="hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo hotel chez amina"/>
-                                    <div class="textehotel">
-                                        <strong> Hôtel chez Amina</strong><br/>
+                        <figure class="hotelchezamina">
+                            <a href="#">
+                                <img src="hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo hotel chez amina"/>
+                                <div class="textehotel">
+                                    <strong> Hôtel chez Amina</strong>
+                                    <div>
                                         Nuit à partir de 96€
-                                        <div>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        </div>
                                     </div>
-                                </a>
-                            </figure> 
+                                    <div>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </figure>       
                     </div>
                     </div>
 

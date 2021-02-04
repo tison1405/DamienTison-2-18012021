@@ -1,6 +1,6 @@
 body
 {
-    font-family:  "Raleway", sans-serif;
+    font-family: sans-serif;
 }    
 h2
 {
@@ -11,7 +11,8 @@ p
 {
     font-size: small;
 }
-@font-face{
+@font-face
+{
     font-family: "Raleway";
     src: url(Font/Raleway-Italic-VariableFont_wght.ttf);
     src: url(Font/Raleway-VariableFont_wght.ttf);
@@ -112,6 +113,10 @@ header h2
     font-weight: normal;
     font-size: small;
 }
+#rechercher
+{
+    display: none;
+}
 form
 {
     margin-bottom: 10px;
@@ -131,11 +136,10 @@ form
 }   
 input
 {
-    padding-top: 0px;
-    border: 0px;
     font-weight: bold;
-    width: 50%;
-    height: 40px;
+    border: 1px solid #F2F2F2;
+    padding-left: 10px;
+    font-size: medium;
 }
 .recherche
 {
@@ -149,6 +153,7 @@ input
 {
     display: flex;
     width: 1000px;
+    justify-content: space-between;
 }
 .filtres i
 {
@@ -172,13 +177,6 @@ input
     border-radius: 30px 30px;
     margin-bottom: 18px;
     margin-top: 8px;
-}
-.filtres div
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 600px;
 }
 .textes
 {
@@ -210,7 +208,20 @@ input
 {
     background-color:  #DEEBFF;
 }
-
+.plus i
+{
+    color: #0065FC;
+    font-size: small;
+    border-radius: 50%;
+    border: 1px solid #DEEBFF;
+    padding: 4px 8px 4px 8px;
+    margin-right: 5px;
+}
+.plus
+{
+    width: 100%;
+    border: 1px solid black;
+}
 #titrepopulaire
 {
     display: flex;
@@ -218,13 +229,8 @@ input
     justify-content: space-between;
     height: 40px;
     width: 80%;
-    align-self: center;
     font-size: larger;
     margin-top: 20px;
-}
-aside h2
-{
-    font-size: 18px;
 }
 aside
 {
@@ -297,7 +303,7 @@ aside figure a
 {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
     height: 500px;
 }
 .heb h2
@@ -322,23 +328,18 @@ aside figure a
 #hotel1
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-    height: 500px;
+    height: 50%;
+    width: 100%;
 }
 #hotel2
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-    height: 500px;
-}
-#hotel3
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 500px;
+    height: 50%;
+    width: 100%;
 }
 #afficherplus
 {
@@ -350,7 +351,6 @@ aside figure a
 {
     width: 250px;
     height: 200px;
-    min-width: 200px;
     border-radius: 10px 10px;
     background-color: white;
     display: flex;
@@ -570,7 +570,7 @@ footer div
 
 
 
-@media (max-width:768px)
+@media (min-width:768px)
 {
     #ligne1
     {
@@ -613,17 +613,18 @@ footer div
     }
     .i a
     {
-        font-size: large;
+        font-size: xx-large;
     }
     .h a
     {
-        font-size: large;
+        font-size: xx-large;
         display: block;
         height: 100%;
+        font-weight: bold;
     }
     .a a
     {
-        font-size: large;
+        font-size:xx-large;
         display: block;
         height: 100%;
     }
@@ -641,117 +642,196 @@ footer div
         border-top: unset;
         padding-top: unset;
     }
-}
-@media (max-width:768px)
-{
-    #hotel3
+    header h2
     {
-        flex-direction: row;
-        justify-content: space-around;
+        font-size: x-large;
+        width: 65%;
+        padding-left: 70px;
+        text-align: justify;
+    }
+    form
+    {
         width: 100%;
-        height: 230px;
-    }
-    #hotel1
-    {
-        flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
-        height: 230px;
-    }
-    #hotel2
-    {
-        flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
-        height: 230px;
-    }
-    #hotel6
-    {
-        flex-direction: column;
-        justify-content: space-around;
-        height: 500px;
-    }
-    .heb
-    {
-        height: 900px;
-        width: 100%;
-    }
-    #hebergements
-    {
-        padding-top: 0px;
-        padding-bottom: 20px;
-    }
-    #afficherplus
-    {
-        padding-top: 40px;
-    }
-
-}
-
-@media (max-width:1024px)
-{
-    #section1
-    {
-        flex-direction: column-reverse;
-    }
-    #hotelpop
-    {
+        height: 50px;
+        text-align: center;
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
-        height: 250px;
+        justify-content: center;
     }
-    aside
+    .loc
     {
-        width: 100%;
-        height: 300px;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        border-radius: 20px 0px 0px 20px;
+        padding: 15px 0px 0px 0px;
+        width: 8%;
     }
-    aside figure 
+    #mf
     {
-        display: flex;
-        flex-direction: column;
-        height: 180px;
+        width: 70%;
+        font-weight: bold;
     }
-    aside img
+    input
     {
-        width: 100%;
-        border-radius: 10px;
-
+        width: 50%
     }
-    aside figcaption
+    #localisation
     {
-        width: 100%;
+        display: none;
     }
-    .heb
+    #rechercher
     {
-        width: 100%;
+        display: unset;
     }
-    #marseille
+    #loupe 
     {
-        flex-direction: column;
-        width: 100%;
-    }
-    #marseille1
-    {
-        flex-direction: row-reverse;
-        width: 100%;
-        justify-content: space-around;
-    }
-    #marseille2
-    {
-        width: 100%;
-        justify-content: space-around;
+        width: 8%;
+        text-align: center;
+        padding-top: 15px;
+        border-radius: 10px 10px;
+        background-color: #0065FC;
+        color: white;
     }
     .filtres
     {
+        flex-wrap: wrap;
+        justify-content: left;
+        width: 100%;
+        border: 1px solid black;
+    }
+    .textefiltres
+    {
+        width: 100%;
+        font-size: larger;
+        margin-bottom: unset;
+    }
+    .economique
+    {
+        margin-left: 5px;
+        margin-bottom: unset;
+    }
+    .familial
+    {
+        margin-right: 30%;
+        margin-left: 10px;
+        margin-bottom: unset;
+    }
+    .romantique
+    {
+        margin-right: 40%;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: unset;
+    }
+    .animaux
+    {
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .filtres a
+    {
+        margin-bottom: unset;
+    }
+    #section1
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    aside
+    {
+        width: 95%;
+        height: 850px;
+        justify-content: space-around;
+    }
+    aside figure a
+    {
+        height: 200px;
+    }
+    aside img
+    {
+        height: 100%;
+    }
+    #hotelpop
+    {
+        width: 100%;
+        height: 700px;
+        justify-content: center;
+    }
+    aside h2
+    {
+        font-size: xx-large;
+        text-align: left;
+        border: 1px solid black;
+        width: 70%;
+    }
+    #titrepopulaire
+    {
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 0px;
+        height: 100px;
+        margin-left: 0px;
+        border: 1px solid black;
+    }
+    #titrepopulaire i
+    {
+        border: 1px solid black;
+        width: 20%;
+        padding-top: 35px;
+        font-size: x-large;
+    }
+
+    .heb
+    {
+        height: 2200px;
+        background-color: white;
         width: 100%;
     }
-}
+    #hotel1
+    {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    #hotel2
+    {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    #hotel6
+    {
+        height: 2000px;
+        width: 100%;
+    }
+    .heb figure
+    {
+        width: 80%;
+        height: 300px;
+        min-width: 100px;
+        margin-bottom: 10px;
+        box-shadow: 6px 6px 0px #F2F2F2;
+    }
+    .heb img
+    {
+        height: 180px;
+    }
+    .textehotel
+    {
+        font-size: large;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 110px;
+        padding-left: 20px;
+    }
+    .heb i
+    {
+        font-size: large;
+    }
+
+} 
+
+
+
+
 
 
 
