@@ -491,7 +491,7 @@ footer div
 
 
 
-@media (max-width: 667px)
+@media screen and (max-width: 700px)
 {
     #ligne1
     {
