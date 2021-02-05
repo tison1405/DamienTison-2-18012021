@@ -24,7 +24,6 @@ p
 {
     display: flex;
     flex-direction: row;
-    width: 100%;
     padding-top: 30px;
 
 }
@@ -111,7 +110,7 @@ form
     margin-bottom: 10px;
     display: flex;
     justify-content: start;
-    width: 450px;
+    width: 35%;
     height: 40px;
 }
 .loc
@@ -173,19 +172,19 @@ input
 }
 .economique
 {
-    width: 200px;
+    width: 15%;
 }
 .familial
 {
-    width: 160px;
+    width: 13%;
 }
 .romantique
 {
-    width: 200px;
+    width: 15%;
 }
 .animaux
 {
-    width: 230px;
+    width: 20%;
 }
 .textefiltres
 {
@@ -205,10 +204,6 @@ input
     padding: 4px 8px 4px 8px;
     margin-right: 5px;
 }
-.plus
-{
-    width: 100%;
-}
 
 aside
 {
@@ -219,13 +214,6 @@ aside
     background-color: #F2F2F2;
     justify-content: space-around;
     padding-left: 30px;
-}
-#hotelpop
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 540px;
 }
 aside img
 {
@@ -503,7 +491,7 @@ footer div
 
 
 
-@media (max-width:768px)
+@media (max-width: 667px)
 {
     #ligne1
     {
@@ -524,7 +512,6 @@ footer div
     }
     .h:nth-child(2)
     {
-        min-width: 100px;
         order: 3;
         width: 49%;
         text-align: center;
@@ -532,13 +519,11 @@ footer div
     .a:nth-child(3)
     {
         order: 4;
-        min-width: 100px;
         width: 49%;
         text-align: center;
     }
     .i:nth-child(4)
     {
-        min-width: 100px;
         order: 2;
         width: 40%;
         padding-top: 25px;
