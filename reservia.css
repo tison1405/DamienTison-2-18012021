@@ -1,11 +1,13 @@
 body
 {
-    font-family: sans-serif;
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
 }    
 h2
 {
     font-weight: bold;
     font-size: medium;
+    margin-bottom: 0;
 }
 p
 {
@@ -14,26 +16,9 @@ p
 @font-face
 {
     font-family: "Raleway";
-    src: url(Font/Raleway-Italic-VariableFont_wght.ttf);
     src: url(Font/Raleway-VariableFont_wght.ttf);
-    src: url(Font/Raleway-Black.ttf);
-    src: url(Font/Raleway-BlackItalic.ttf);
-    src: url(Font/Raleway-Bold.ttf);
-    src: url(Font/Raleway-BoldItalic.ttf);
-    src: url(Font/Raleway-ExtraBold.ttf);
-    src: url(Font/Raleway-ExtraBoldItalic.ttf);
-    src: url(Font/Raleway-ExtraLight.ttf);
-    src: url(Font/Raleway-ExtraLightItalic.ttf);
-    src: url(Font/Raleway-Italic.ttf);
-    src: url(Font/Raleway-Light.ttf);
-    src: url(Font/Raleway-LightItalic.ttf);
-    src: url(Font/Raleway-Medium.ttf);
-    src: url(Font/Raleway-MediumItalic.ttf);
-    src: url(Font/Raleway-Regular.ttf);
-    src: url(Font/Raleway-SemiBold.ttf);
-    src: url(Font/Raleway-SemiBoldItalic.ttf);
-    src: url(Font/Raleway-Thin.ttf);
-    src: url(Font/Raleway-ThinItalic.ttf);
+    font-display: swap;
+   
 }
 #ligne1
 {
@@ -106,7 +91,7 @@ p
 header h2
 {
     font-size: larger;
-    font-weight: 900;
+    font-weight: xx-large;
 }
 .villenature
 {
@@ -377,7 +362,7 @@ aside figure a
     display: flex;
     justify-content: space-between;
     width: 100%;
-    min-width: 750px;
+    min-width: 720px;
 }
 .activites img
 {
@@ -570,12 +555,12 @@ footer div
 
 
 
-@media (min-width:768px)
+@media (max-width:768px)
 {
     #ligne1
     {
         flex-wrap: wrap;
-        height: 150px;
+        height: 200px;
         justify-content: space-between;
         border-bottom: 2px solid #F2F2F2;
     }
@@ -583,6 +568,7 @@ footer div
     {
         order: 1;
         width: 49%;
+        padding-left: 20px;
     }
     #logo img
     {
@@ -609,7 +595,7 @@ footer div
         order: 2;
         width: 40%;
         padding-top: 25px;
-        padding-right: 30px;
+        padding-right: 50px;
     }
     .i a
     {
@@ -642,12 +628,27 @@ footer div
         border-top: unset;
         padding-top: unset;
     }
+
+    .vacances
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        align-items: center;
+    }
     header h2
     {
+        font-size: xx-large;
+        width: 55%;
+        text-align: left;   
+    }
+    .villenature
+    {
+        text-align: left;
+        width: 55%;
+        height: 30px;
         font-size: x-large;
-        width: 65%;
-        padding-left: 70px;
-        text-align: justify;
     }
     form
     {
@@ -665,7 +666,7 @@ footer div
     }
     #mf
     {
-        width: 70%;
+        width: 40%;
         font-weight: bold;
     }
     input
@@ -699,7 +700,7 @@ footer div
     .textefiltres
     {
         width: 100%;
-        font-size: larger;
+        font-size: xx-large;
         margin-bottom: unset;
     }
     .economique
@@ -712,10 +713,11 @@ footer div
         margin-right: 30%;
         margin-left: 10px;
         margin-bottom: unset;
+        font-size: xx-large;
     }
     .romantique
     {
-        margin-right: 40%;
+        margin-right: 70%;
         margin-top: 5px;
         margin-left: 5px;
         margin-bottom: unset;
@@ -733,6 +735,7 @@ footer div
     {
         display: flex;
         flex-direction: column-reverse;
+        min-width: 100%;
     }
     aside
     {
