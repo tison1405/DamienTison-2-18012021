@@ -236,7 +236,7 @@ aside img
 aside i
 {
     color: #0065FC;
-    font-size: x-small;
+    font-size: 15px;
 }
 .far 
 {
@@ -253,6 +253,7 @@ aside i
 {
     margin-block-start: 0;
     margin-block-end: 0;
+    font-size: 20px;
 }
 #titrepopulaire i
 {
@@ -272,6 +273,7 @@ aside a
     border-radius: 10px 10px;
     background-color: white;
     height: 20%;
+    box-shadow: 2px 2px 20px grey;
 }
 .asidehotel
 {
@@ -279,7 +281,8 @@ aside a
     justify-content: space-between;
     flex-direction: column;
     padding: 10px;
-    width: 45%;
+    width: 50%;
+    font-size: 15px;
 }
 .heb
 {
@@ -290,24 +293,36 @@ aside a
     background-color: #F2F2F2;
     border-radius: 0px 10px 10px 0px;
 }
-#hotel6
-{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    height: 500px;
-}
 .heb h2
 {
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 700;
     margin-block-start: 0;
     margin-block-end: 0;
 }
-.heb a
+#hotel1 a
 {
     text-decoration: none;
     color: black;
     font-size: small;
+    width: 30%;
+    border-radius: 10px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px grey;
+}
+#hotel2 a
+{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    width: 30%;
+    border-radius: 10px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px grey;
 }
 .heb .fas
 {
@@ -322,62 +337,63 @@ aside a
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 50%;
-    width: 100%;
+    height: 35%;
 }
 #hotel2
 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 50%;
-    width: 100%;
+    height: 35%;
 }
-#afficherplus
+#afficherplus a
 {
-    padding-bottom: 15px;
     padding-left: 20px;
-    font-weight: bold;    
-}
-.heb figure
-{
-    width: 250px;
-    height: 200px;
-    border-radius: 10px 10px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+
 }
 .heb img
 {
-    width: 100%;
-    height: 140px;
+    height: 60%;
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
 }
 .heb i
 {
-    font-size: x-small;
+    font-size: 13px;
 }
 .textehotel
 {
-    font-size: small;
+    font-size: 15px;
     padding: 8px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 #section1
 {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    min-width: 720px;
+}
+.activites
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.activites h2
+{
+    margin-bottom: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
 }
 .activites img
 {
     object-fit: cover;
-}
-.activites
-{
-    width: 100%;
+    border-radius: 10px 10px 0px 0px;
 }
 
 #marseille
@@ -385,164 +401,90 @@ aside a
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 450px;
+    height: 400px;
 }
 #marseille a
 {
     text-decoration: none;
     color: black;
-    font-weight: bold;
-}
-#marseille1
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 400px;
-    width: 50%;
-}
-#marseille2
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 400px;
-    width: 50%;
+    font-weight: 700;
+    border-radius: 10px 10px;
+    box-shadow:  6px 6px 0px #F2F2F2;
 }
 #nl
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 430px;
+    width: 20%;
 }
+
 #fi
 {
     display: flex;
     flex-direction: column;
+    width: 20%;
     justify-content: space-between;
-    height: 420px;
-}
-#marseille figure
-{
-    box-shadow: 6px 6px 0px #F2F2F2;
 }
 .vieuxport
 {
-    height: 100%;
-    border-radius: 10px 10px;
+    width: 20%;
 }
-.fortdepomegues
+.vieuxport img
 {
-    height: 225px;
-    border-radius: 10px 10px;
-}
-
-.ilesdufrioul
-{
-    height: 135px;
-    border-radius: 10px 10px;
+    width: 100%;
+    height: 90%;
 }
 .calanques
 {
+    width: 20%;
     height: 100%;
-    border-radius: 10px 10px;
+}
+.calanques img
+{
+    width: 100%;
+    height: 90%;
+}
+.fortdepomegues
+{
+    height: 50%;
+}
+.fortdepomegues img
+{
+    width: 100%;
+    height: 81%;
+}
+.ilesdufrioul
+{
+    height: 40%;
+}
+.ilesdufrioul img
+{
+    width: 100%;
+    height: 75%;
 }
 .notredame
 {
-    height: 180px;
-    border-radius: 10px 10px;
+    height: 45%;
+}
+.notredame img
+{
+    width: 100%;
+    height: 80%;
 }
 .longchamp
 {
-    height: 180px;
-    border-radius: 10px 10px;
+    height: 45%;
 }
-.vieuxport a img
+.longchamp img
 {
     width: 100%;
-    height: 360px;
-    border-radius: 10px 10px 0px 0px;
+    height: 80%;
 }
-.vieuxport a div
-{
-    width: 100%;
-    height: 40px;
-    padding-top: 10px;
-    padding-left: 5px;
-}
-.fortdepomegues a img
-{
-    width: 100%;
-    height: 185px;
-    border-radius: 10px 10px 0px 0px;
-}
-.fortdepomegues a div
-{
-    width: 100%;
-    height: 40px;
-    padding-top: 10px;
-    padding-left: 5px;
-}
-.ilesdufrioul a img
-{
-    width: 100%;
-    height: 95px;
-    border-radius: 10px 10px 0px 0px;
-}
-.ilesdufrioul a div
-{
-    width: 100%;
-    height: 40px;
-    padding-top: 10px;
-    padding-left: 5px;
-}
-.calanques a img
-{
-    height: 360px;
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
-}
-.calanques a div
-{
-    width: 100%;
-    height: 40px;
-    padding-top: 10px;
-    padding-left: 5px;
-}
-.notredame a img
-{
-    width: 100%;
-    height: 140px;
-    border-radius: 10px 10px 0px 0px;
-}
-.notredame a div
-{
-    width: 100%;
-    height: 40px;
-    padding-top: 10px;
-    padding-left: 5px;
-}
-.longchamp a img
-{
-    width: 100%;
-    height: 140px;
-    border-radius: 10px 10px 0px 0px;
-}
-.longchamp a div
-{
-    width: 100%;
-    height: 40px;
-    padding-top: 10px;
-    padding-left: 5px;
-}
-
 footer
 {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 200px;
     justify-content: left;
     background-color: #F2F2F2;
 }
@@ -557,7 +499,6 @@ footer div
     flex-direction: column;
     justify-content: space-around;
     width: 33%;
-    height: 150px;
 }
 
 
@@ -567,7 +508,6 @@ footer div
     #ligne1
     {
         flex-wrap: wrap;
-        height: 200px;
         justify-content: space-between;
         border-bottom: 2px solid #F2F2F2;
     }
@@ -612,14 +552,12 @@ footer div
     {
         font-size: xx-large;
         display: block;
-        height: 100%;
         font-weight: bold;
     }
     .a a
     {
         font-size:xx-large;
         display: block;
-        height: 100%;
     }
     .h a:hover
     {
@@ -742,102 +680,24 @@ footer div
     {
         display: flex;
         flex-direction: column-reverse;
-        min-width: 100%;
     }
-    aside
-    {
-        width: 95%;
-        height: 850px;
-        justify-content: space-around;
-    }
-    aside figure a
-    {
-        height: 200px;
-    }
-    aside img
-    {
-        height: 100%;
-    }
-    #hotelpop
-    {
-        width: 100%;
-        height: 700px;
-        justify-content: center;
-    }
-    aside h2
-    {
-        font-size: xx-large;
-        text-align: left;
-        border: 1px solid black;
-        width: 70%;
-    }
-    #titrepopulaire
-    {
-        justify-content: space-around;
-        width: 100%;
-        margin-top: 0px;
-        height: 100px;
-        margin-left: 0px;
-        border: 1px solid black;
-    }
-    #titrepopulaire i
-    {
-        border: 1px solid black;
-        width: 20%;
-        padding-top: 35px;
-        font-size: x-large;
-    }
-
     .heb
     {
-        height: 2200px;
         background-color: white;
-        width: 100%;
     }
     #hotel1
     {
         flex-direction: column;
-        width: 100%;
         justify-content: center;
     }
     #hotel2
     {
         flex-direction: column;
-        width: 100%;
         justify-content: center;
     }
-    #hotel6
-    {
-        height: 2000px;
-        width: 100%;
-    }
-    .heb figure
-    {
-        width: 80%;
-        height: 300px;
-        min-width: 100px;
-        margin-bottom: 10px;
-        box-shadow: 6px 6px 0px #F2F2F2;
-    }
-    .heb img
-    {
-        height: 180px;
-    }
-    .textehotel
-    {
-        font-size: large;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 110px;
-        padding-left: 20px;
-    }
-    .heb i
-    {
-        font-size: large;
-    }
+}
+    
 
-} 
 
 
 
