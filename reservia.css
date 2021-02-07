@@ -491,58 +491,71 @@ footer div
 
 
 
-@media screen and (max-width: 700px)
+@media screen and (max-width: 1000px)
 {
     #ligne1
     {
         flex-wrap: wrap;
         justify-content: space-between;
-        border-bottom: 2px solid #F2F2F2;
+        padding-top: 0;
+        
     }
     #logo:nth-child(1)
     {
         order: 1;
         width: 49%;
         padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
     }
     #logo img
     {
         width: 50%;
-        height: 50%;
+        height: 60%;
     }
     .h:nth-child(2)
     {
         order: 3;
-        width: 49%;
+        width: 50%;
         text-align: center;
+        margin-top: 25px;
     }
     .a:nth-child(3)
     {
         order: 4;
-        width: 49%;
+        width: 50%;
         text-align: center;
+        margin-top: 25px;
     }
     .i:nth-child(4)
     {
         order: 2;
         width: 40%;
-        padding-top: 25px;
-        padding-right: 50px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .i a
     {
-        font-size: xx-large;
+        font-size: 15px;
     }
     .h a
     {
-        font-size: xx-large;
+        font-size: 15px;
         display: block;
         font-weight: bold;
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 10px;
     }
     .a a
     {
-        font-size:xx-large;
+        font-size:15px;
         display: block;
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 10px;
     }
     .h a:hover
     {
