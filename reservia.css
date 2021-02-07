@@ -576,40 +576,38 @@ footer div
     {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        height: 200px;
-        align-items: center;
     }
     header h2
     {
-        font-size: xx-large;
-        width: 55%;
-        text-align: left;   
+        font-size: 18px;
+        margin-left: 22px;
+        width: 80%;   
     }
     .villenature
     {
-        text-align: left;
-        width: 55%;
-        height: 30px;
-        font-size: x-large;
+        font-size: 15px;
+        margin: 10px 0px 0px 22px;
+        font-weight: 700;
     }
     form
     {
         width: 100%;
-        height: 50px;
+        height: 40px;
         text-align: center;
         display: flex;
         justify-content: center;
+        margin-top: 30px;
     }
     .loc
     {
-        border-radius: 20px 0px 0px 20px;
-        padding: 15px 0px 0px 0px;
-        width: 8%;
+        border-radius: 15px 0px 0px 15px;
+        padding: 12px 0px 0px 0px;
+        width: 12%;
+        font-size: 15px;
     }
     #mf
     {
-        width: 40%;
+        width: 56%;
         font-weight: bold;
     }
     input
@@ -626,9 +624,9 @@ footer div
     }
     #loupe 
     {
-        width: 8%;
+        width: 12%;
         text-align: center;
-        padding-top: 15px;
+        padding-top: 12px;
         border-radius: 10px 10px;
         background-color: #0065FC;
         color: white;
