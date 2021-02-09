@@ -203,8 +203,20 @@ input
     border: 1px solid #DEEBFF;
     padding: 4px 8px 4px 8px;
     margin-right: 5px;
+    margin-bottom: 12px;
 }
-
+.plus
+{
+    display: flex;
+    flex-direction: row;
+   
+}
+.plus p
+{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-top: 5px;
+}
 aside
 {
     width: 25%;
@@ -636,37 +648,57 @@ footer div
         flex-wrap: wrap;
         justify-content: left;
         width: 100%;
-        border: 1px solid black;
     }
     .textefiltres
     {
         width: 100%;
-        font-size: xx-large;
+        font-size: 16px;
         margin-bottom: unset;
+        font-weight: 700;
+        margin-left: 10px;
+        margin-bottom: 10px;
     }
     .economique
     {
         margin-left: 5px;
         margin-bottom: unset;
+        width: 45%;
     }
     .familial
     {
-        margin-right: 30%;
+        width: 35%;
         margin-left: 10px;
         margin-bottom: unset;
         font-size: xx-large;
     }
     .romantique
     {
-        margin-right: 70%;
+        margin-right: 40%;
         margin-top: 5px;
         margin-left: 5px;
         margin-bottom: unset;
+        width: 45%;
     }
     .animaux
     {
         margin-left: 5px;
         margin-top: 5px;
+        width: 55%;
+    }
+    .plus
+    {
+        font-size: 15px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    .plus p
+    {
+        width: 90%;
+        font-size: 16px;
+    }
+    .plus i
+    {
+        margin-bottom: 18px;
     }
     .filtres a
     {
@@ -677,9 +709,52 @@ footer div
         display: flex;
         flex-direction: column-reverse;
     }
+    aside
+    {
+        width: 100%;
+        padding-left: 10px;
+        margin-top: 30px;
+        border-radius: 0;
+        height: 520px;
+        justify-content: flex-start;
+    }
+    #titrepopulaire
+    {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        width: 90%;
+        padding-left: 5px;
+    }
+    aside a
+    {
+        width: 85%;
+        height: 120px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
     .heb
     {
         background-color: white;
+        width: 100%;
+        margin-top: 20px;
+    }
+    #hebergements
+    {
+        padding-bottom: 20px;
+    }
+    #hotel1 a
+    {
+        width: 95%;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        height: 200px;
+    }
+    #hotel2 a
+    {
+        width: 95%;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        height: 200px;
     }
     #hotel1
     {
@@ -690,6 +765,11 @@ footer div
     {
         flex-direction: column;
         justify-content: center;
+    }
+    #afficherplus a
+    {
+        display: block;
+        margin-top: 10px;
     }
 }
     
