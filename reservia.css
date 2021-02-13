@@ -16,7 +16,7 @@ p
 @font-face
 {
     font-family: "Raleway";
-    src: url(Font/Raleway-VariableFont_wght.ttf);
+    src: url(Font/Raleway-Regular.ttf);
     font-display: swap;
 }
 @font-face
@@ -24,6 +24,10 @@ p
     font-family: "Raleway-Bold";
     src: url(Font/Raleway-Bold.ttf);
     font-display: swap;
+}
+header
+{
+    margin: 0 10px 0 10px;
 }
 #ligne1
 {
@@ -113,7 +117,7 @@ form
     margin-bottom: 10px;
     display: flex;
     justify-content: start;
-    width: 35%;
+    width: 25%;
     height: 40px;
 }
 .loc
@@ -144,16 +148,13 @@ input
 {
     display: flex;
     width: 70%;
-    justify-content: space-between;
+    justify-content: start;
 }
 .filtres h2
 {
-    margin-block-start: 0;
-    margin-block-end: 0;
     padding-top: 20px;
-    margin-left: 15px; 
+    margin: 0 15px 0 15px; 
     font-family:"Raleway-Bold";
-
 }
 .filtres i
 {
@@ -174,8 +175,7 @@ input
     font-style: normal;
     border: 2px solid #F2F2F2;
     border-radius: 30px 30px;
-    margin-bottom: 18px;
-    margin-top: 8px;
+    margin: 8px 15px 18px 0;
     font-family:"Raleway-Bold";
 }
 .textes
@@ -215,19 +215,18 @@ input
     border: 1px solid #DEEBFF;
     padding: 4px 8px 4px 8px;
     margin-right: 5px;
-    margin-bottom: 12px;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 .plus
 {
     display: flex;
     flex-direction: row;
-   
+    margin-left: 10px;
 }
 .plus p
 {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-top: 5px;
+    padding-top: 5px 0 0 0;
 }
 aside
 {
@@ -263,8 +262,7 @@ aside i
 }
 #titrepopulaire h2
 {
-    margin-block-start: 0;
-    margin-block-end: 0;
+    margin: 0;
     font-size: 20px;
     font-family:"Raleway-Bold";
 }
@@ -304,14 +302,14 @@ aside a
     justify-content: space-around;
     flex-direction: column;
     background-color: #F2F2F2;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px 10px;
+    margin-left: 10px;
 }
 .heb h2
 {
     font-size: 20px;
     font-weight: 700;
-    margin-block-start: 0;
-    margin-block-end: 0;
+    margin: 0;
     font-family:"Raleway-Bold";
 }
 #hotel1 a
@@ -513,6 +511,7 @@ footer div
     flex-direction: column;
     justify-content: space-around;
     width: 33%;
+    margin-left: 5px;
 }
 footer h3
 {
