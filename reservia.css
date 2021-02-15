@@ -508,7 +508,7 @@ footer h3
 }
 
 
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 500px)
 {
     #ligne1
     {
@@ -658,7 +658,6 @@ footer h3
         width: 100%;
         font-size: 16px;
         margin-bottom: unset;
-        font-weight: 700;
         margin-left: 10px;
         margin-bottom: 10px;
     }
@@ -681,6 +680,7 @@ footer h3
     {
         margin-bottom: 0;
         margin-left: 10px;
+        font-size: 15px;
     }
     #section-b
     {
@@ -880,6 +880,404 @@ footer h3
         margin-left: 10px;
     }
 
+}
+@media screen and (min-width: 500px) and (max-width: 1000px)
+{
+    #ligne1
+    {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 0;
+        
+    }
+    #logo:nth-child(1)
+    {
+        order: 1;
+        width: 49%;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    #logo img
+    {
+        width: 50%;
+        height: 60%;
+    }
+    .h:nth-child(2)
+    {
+        order: 3;
+        width: 50%;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .a:nth-child(3)
+    {
+        order: 4;
+        width: 50%;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .i:nth-child(4)
+    {
+        order: 2;
+        width: 40%;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .i a
+    {
+        font-size: 20px;
+    }
+    .h a
+    {
+        font-size: 25px;
+        display: block;
+        font-weight: bold;
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 10px;
+    }
+    .a a
+    {
+        font-size: 25px;
+        display: block;
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+    .h a:hover
+    {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top: unset;
+        padding-top: unset;
+    }
+    .a a:hover
+    {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top: unset;
+        padding-top: unset;
+    }
+
+    .vacances
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    header h2
+    {
+        width: 70%;
+        margin-top: 30px;
+        font-size: 25px;
+        margin-right: auto;
+        margin-left: auto
+    }
+    .villenature
+    {
+        font-size: 15px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    form
+    {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .loc
+    {
+        border-radius: 15px 0px 0px 15px;
+        padding: 12px 0px 0px 0px;
+        width: 12%;
+        font-size: 15px;
+    }
+    #mfr
+    {
+        width: 40%;
+        font-weight: bold;
+    }
+    input
+    {
+        width: 50%
+    }
+    #localisation
+    {
+        display: none;
+    }
+    #rechercher
+    {
+        display: unset;
+    }
+    #loupe 
+    {
+        width: 12%;
+        text-align: center;
+        padding-top: 12px;
+        border-radius: 10px 10px;
+        background-color: #0065FC;
+        color: white;
+    }
+    .filtres
+    {
+        flex-wrap: wrap;
+        justify-content: left;
+        width: 100%;
+    }
+    .filtres h2
+    {
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: unset;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .plus
+    {
+        font-size: 15px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    .plus p
+    {
+        width: 90%;
+        font-size: 16px;
+    }
+    .plus i
+    {
+        margin-bottom: 18px;
+    }
+    .filtres a
+    {
+        margin-bottom: 0;
+        margin-left: 10px;
+        font-size: 25px;
+        padding-right: 15px;
+    }
+    #section-b
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    aside
+    {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 30px;
+        border-radius: 0;
+        height: 100%;
+        justify-content: flex-start;
+    }
+    #titrepopulaire
+    {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        width: 90%;
+        padding-left: 20px;
+    }
+    #titrepopulaire h2
+    {
+        font-size: 25px;
+    }
+    aside a
+    {
+        width: 85%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .heb
+    {
+        background-color: white;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    #hebergements
+    {
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+    #hotel1 a
+    {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        height: 400px;
+    }
+    #hotel2 a
+    {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        height: 400px;
+    }
+    #hotel1
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #hotel2
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #afficherplus a
+    {
+        display: block;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    #marseille
+    {
+        flex-direction: column;
+        height: 100%;
+    }
+    .vieuxport
+    {
+        width: 95%;
+        margin-left: 10px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .fortdepomegues
+    {
+        width: 95%;
+        margin-left: 10px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .ilesdufrioul
+    {
+        width: 95%;
+        margin-left: 10px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .calanques
+    {
+        width: 95%;
+        margin-left: 10px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .notredame
+    {
+        width: 95%;
+        margin-left: 10px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .longchamp
+    {
+        width: 95%;
+        margin-left: 10px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    #fi
+    {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    #nl
+    {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .vieuxport img
+    {
+        width: 100%;
+        height: 70%;
+    }
+    .fortdepomegues img
+    {
+        width: 100%;
+        height: 70%;
+    }
+    .ilesdufrioul img
+    {
+        width: 100%;
+        height: 70%;
+    }
+    .calanques img
+    {
+        width: 100%;
+        height: 70%;
+    }
+    .notredame img
+    {
+        width: 100%;
+        height: 70%;
+    }
+    .longchamp img
+    {
+        width: 100%;
+        height: 70%;
+    }
+    .vieuxport div
+    {
+        margin-top: 20px;
+        padding-left: 20px;
+        font-size: 25px;
+    }
+    .fortdepomegues div
+    {
+        margin-top: 20px;
+        padding-left: 20px;
+        font-size: 25px;
+    }
+    .ilesdufrioul div
+    {
+        margin-top: 20px;
+        padding-left: 20px;
+        font-size: 25px;
+    }
+    .calanques div
+    {
+        margin-top: 20px;
+        padding-left: 20px;
+        font-size: 25px;
+    }
+    .notredame div
+    {
+        margin-top: 20px;
+        padding-left: 20px;
+        font-size: 25px;
+    }
+    .longchamp div
+    {
+        margin-top: 20px;
+        padding-left: 20px;
+        font-size: 25px;
+    }
+    footer
+    {
+        flex-direction: column;
+    }
+    footer div
+    {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .asidehotel
+    {
+        font-size: 25px;
+    }
+    .textehotel
+    {
+        font-size: 30px;
+    }
 }
     
 
