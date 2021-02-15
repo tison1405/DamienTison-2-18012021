@@ -662,33 +662,6 @@ footer h3
         margin-left: 10px;
         margin-bottom: 10px;
     }
-    .economique
-    {
-        margin-left: 5px;
-        margin-bottom: unset;
-        width: 45%;
-    }
-    .familial
-    {
-        width: 35%;
-        margin-left: 10px;
-        margin-bottom: unset;
-        font-size: xx-large;
-    }
-    .romantique
-    {
-        margin-right: 40%;
-        margin-top: 5px;
-        margin-left: 5px;
-        margin-bottom: unset;
-        width: 45%;
-    }
-    .animaux
-    {
-        margin-left: 5px;
-        margin-top: 5px;
-        width: 55%;
-    }
     .plus
     {
         font-size: 15px;
@@ -706,7 +679,8 @@ footer h3
     }
     .filtres a
     {
-        margin-bottom: unset;
+        margin-bottom: 0;
+        margin-left: 10px;
     }
     #section-b
     {
