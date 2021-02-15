@@ -147,7 +147,6 @@ input
 .filtres
 {
     display: flex;
-    width: 70%;
     justify-content: start;
 }
 .filtres h2
@@ -177,26 +176,11 @@ input
     border-radius: 30px 30px;
     margin: 8px 15px 18px 0;
     font-family:"Raleway-Bold";
+    padding-right: 10px;
 }
 .textes
 {
     padding-left: 10px;
-}
-.economique
-{
-    width: 15%;
-}
-.familial
-{
-    width: 13%;
-}
-.romantique
-{
-    width: 15%;
-}
-.animaux
-{
-    width: 20%;
 }
 .textefiltres
 {
@@ -292,7 +276,7 @@ aside a
     justify-content: space-between;
     flex-direction: column;
     padding: 10px;
-    width: 50%;
+    width: 40%;
     font-size: 15px;
 }
 .heb
@@ -308,7 +292,6 @@ aside a
 .heb h2
 {
     font-size: 20px;
-    font-weight: 700;
     margin: 0;
     font-family:"Raleway-Bold";
 }
@@ -385,29 +368,32 @@ aside a
     flex-direction: column;
     justify-content: space-around;
 }
-#section1
+#section-b
 {
     display: flex;
     justify-content: space-between;
 }
-.activites
+#section-b strong
+{
+    font-family:"Raleway-Bold";
+}
+#section-c
 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.activites h2
+#activités 
 {
     margin-bottom: 15px;
     padding-left: 20px;
     font-size: 20px;
     font-family:"Raleway-Bold";
 }
-.activites img
+#section-c img
 {
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
 }
-
 #marseille
 {
     display: flex;
@@ -504,6 +490,8 @@ footer a
 {
     text-decoration: none;
     color: black;
+    display: block;
+    margin-bottom: 8px;
 }
 footer div
 {
@@ -511,13 +499,13 @@ footer div
     flex-direction: column;
     justify-content: space-around;
     width: 33%;
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 footer h3
 {
     font-family:"Raleway-Bold";
 }
-
 
 
 @media screen and (max-width: 1000px)
@@ -720,7 +708,7 @@ footer h3
     {
         margin-bottom: unset;
     }
-    #section1
+    #section-b
     {
         display: flex;
         flex-direction: column-reverse;
@@ -728,7 +716,7 @@ footer h3
     aside
     {
         width: 100%;
-        padding-left: 10px;
+        padding-left: 0;
         margin-top: 30px;
         border-radius: 0;
         height: 520px;
@@ -739,13 +727,14 @@ footer h3
         padding-top: 30px;
         padding-bottom: 20px;
         width: 90%;
-        padding-left: 5px;
+        padding-left: 20px;
     }
     aside a
     {
         width: 85%;
         height: 120px;
-        margin-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 10px;
     }
     .heb
@@ -753,6 +742,7 @@ footer h3
         background-color: white;
         width: 100%;
         margin-top: 20px;
+        margin-left: 0;
     }
     #hebergements
     {
@@ -761,14 +751,16 @@ footer h3
     #hotel1 a
     {
         width: 95%;
-        margin-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 10px;
         height: 200px;
     }
     #hotel2 a
     {
         width: 95%;
-        margin-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 10px;
         height: 200px;
     }
@@ -913,21 +905,7 @@ footer h3
         width: 100%;
         margin-left: 10px;
     }
-    #apropos a
-    {
-        display: block;
-        margin-bottom: 8px;
-    }
-    #noshebergements a
-    {
-        display: block;
-        margin-bottom: 8px;
-    }
-    #Assistance a
-    {
-        display: block;
-        margin-bottom: 8px;
-    }
+
 }
     
 
