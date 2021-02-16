@@ -24,6 +24,7 @@ header
     display: flex;
     flex-direction: row;
     padding-top: 30px;
+    margin-right: 10px;
 }
 #logo
 {
@@ -212,7 +213,6 @@ aside
     flex-direction: column;
     background-color: #F2F2F2;
     justify-content: space-around;
-    padding-left: 30px;
     margin-right: 15px;
 }
 aside img
@@ -236,6 +236,9 @@ aside i
     flex-direction: row;
     justify-content: space-between;
     font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
 }
 #titrepopulaire h2
 {
@@ -256,12 +259,14 @@ aside a
     font-size: small;
     display: flex;
     flex-direction: row;
-    width: 90%;
-    padding: 5px;
+    width: 85%;
+    padding: 4px;
     border-radius: 10px 10px;
     background-color: white;
     height: 20%;
-    box-shadow: 2px 2px 20px grey;
+    box-shadow: 2px 2px 5px gray;
+    margin-left: auto;
+    margin-right: auto;
 }
 .asidehotel
 {
@@ -274,7 +279,7 @@ aside a
 }
 .heb
 {
-    width: 70%;
+    width: 65%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -293,24 +298,26 @@ aside a
     text-decoration: none;
     color: black;
     font-size: small;
-    width: 30%;
+    width: 28%;
     border-radius: 10px 10px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    box-shadow: 2px 2px 20px grey;
+    box-shadow: 2px 2px 5px gray;
+    border: 4px solid white;
 }
 #hotel2 a
 {
     text-decoration: none;
     color: black;
     font-size: small;
-    width: 30%;
+    width: 28%;
     border-radius: 10px 10px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    box-shadow: 2px 2px 20px grey;
+    box-shadow: 2px 2px 5px gray;
+    border: 4px solid white;
 }
 .heb .fas
 {
@@ -319,6 +326,7 @@ aside a
 #hebergements
 {
     padding-left: 20px;
+    padding-top: 20px;
 }
 #hotel1
 {
@@ -326,6 +334,7 @@ aside a
     flex-direction: row;
     justify-content: space-around;
     height: 35%;
+    margin-right: 20px;
 }
 #hotel2
 {
@@ -333,14 +342,14 @@ aside a
     flex-direction: row;
     justify-content: space-around;
     height: 35%;
+    margin-right: 20px;
 }
 #afficherplus a
 {
     padding-left: 20px;
-    font-weight: bold;
     text-decoration: none;
     color: black;
-
+    font-family:"Raleway-Bold";
 }
 .heb img
 {
@@ -365,6 +374,7 @@ aside a
 {
     display: flex;
     justify-content: space-between;
+    height: 625px;
 }
 #section-b strong
 {
@@ -401,6 +411,10 @@ aside a
     border-radius: 10px 10px;
     box-shadow:  6px 6px 0px #F2F2F2;
     font-family:"Raleway-Bold";
+}
+#marseille div
+{
+    padding-left: 10px;
 }
 #nl
 {
@@ -494,6 +508,7 @@ footer div
     width: 33%;
     margin-left: 10px;
     margin-bottom: 20px;
+    font-size: 12px;
 }
 footer h3
 {
